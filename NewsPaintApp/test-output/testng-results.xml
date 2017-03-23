@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="143999" started-at="2017-03-23T02:43:13Z" finished-at="2017-03-23T02:45:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="143999" started-at="2017-03-23T02:43:13Z" finished-at="2017-03-23T02:45:37Z">
+      <class name="com.newspointapp.bengoliUpdatedNewsCheck">
+        <test-method status="PASS" signature="intializeDrivers()[pri:0, instance:com.newspointapp.bengoliUpdatedNewsCheck@5bcab519]" name="intializeDrivers" is-config="true" duration-ms="12662" started-at="2017-03-23T08:13:13Z" finished-at="2017-03-23T08:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeDrivers -->
+        <test-method status="PASS" signature="bengoliNewsCheck()[pri:0, instance:com.newspointapp.bengoliUpdatedNewsCheck@5bcab519]" name="bengoliNewsCheck" duration-ms="130263" started-at="2017-03-23T08:13:26Z" finished-at="2017-03-23T08:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bengoliNewsCheck -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:com.newspointapp.bengoliUpdatedNewsCheck@5bcab519]" name="killDriver" is-config="true" duration-ms="1058" started-at="2017-03-23T08:15:36Z" finished-at="2017-03-23T08:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+      </class> <!-- com.newspointapp.bengoliUpdatedNewsCheck -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NewsPoint Test Suite]">
+  <test name="Bengoli news update(failed)">
+    <classes>
+      <class name="com.newspointapp.verticalSwipeScreen">
+        <methods>
+          <include name="killDriver"/>
+          <include name="intializeDrivers"/>
+        </methods>
+      </class> <!-- com.newspointapp.verticalSwipeScreen -->
+      <class name="com.newspointapp.langPublication">
+        <methods>
+          <include name="killDriver"/>
+          <include name="intializeDrivers"/>
+        </methods>
+      </class> <!-- com.newspointapp.langPublication -->
+      <class name="com.newspointapp.bengoliUpdatedNewsCheck">
+        <methods>
+          <include name="killDriver"/>
+          <include name="bengoliNewsCheck"/>
+          <include name="intializeDrivers"/>
+        </methods>
+      </class> <!-- com.newspointapp.bengoliUpdatedNewsCheck -->
+    </classes>
+  </test> <!-- Bengoli news update(failed) -->
+</suite> <!-- Failed suite [NewsPoint Test Suite] -->

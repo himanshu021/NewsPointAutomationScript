@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NewsPoint Test Suite">
+  <test name="AcrossPublication">
+    <classes>
+      <class name="com.newspointapp.verticalSwipeScreen"/>
+    </classes>
+  </test>
+  <test name="Assamyee news update">
+    <classes>
+      <class name="com.newspointapp.langPublication"/>
+    </classes>
+  </test>
+<!--   <test name="Maraathi news update"> -->
+<!--     <classes> -->
+<!--       <class name="com.newspointapp.maraathiLangCheck"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+<!--   <test name="Gujrati news update"> -->
+<!--     <classes> -->
+<!--       <class name="com.newspointapp.gujratiUpdatedNewsCheck"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+  <test name="Bengoli news update">
+    <classes>
+      <class name="com.newspointapp.bengoliUpdatedNewsCheck"/>
+    </classes>
+  </test>
+<!--   <test name="Tamil news update"> -->
+<!--     <classes> -->
+<!--       <class name="com.newspointapp.tamilUpdatedNewsCheck"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+<!--   <test name="Hindi news update"> -->
+<!--     <classes> -->
+<!--       <class name="com.newspointapp.hindiUpdatedNewsCheck"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+<!--   <test name="Email Report"> -->
+<!--     <classes> -->
+<!--       <class name="com.newspointapp.EmailAttachmentSender"/> -->
+<!--     </classes> -->
+<!--   </test> -->
+</suite>
